@@ -14,7 +14,7 @@ function TodoForm() {
     // debugger;
     addTodo({ todo, completed: false})
     setTodo("")
-  };
+  }
 
   return (
     <form onSubmit={add} className="flex">
